@@ -1,0 +1,35 @@
+{
+  "name": "transaction-register",
+  "version": "1.0.0",
+  "description": "PoC of using ethereum as persistence layer",
+  "main": "index.js",
+  "scripts": {
+    "truffle": "./node_modules/.bin/truffle",
+    "compile": "./node_modules/.bin/truffle compile",
+    "migrate": "./node_modules/.bin/truffle migrate",
+    "migrate:ropsten": "./node_modules/.bin/truffle migrate --network ropsten",
+    "migrate:kovan": "./node_modules/.bin/truffle migrate --network kovan",
+    "migrate:rinkeby": "./node_modules/.bin/truffle migrate --network rinkeby",
+    "migrate:main": "./node_modules/.bin/truffle migrate --network main",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KMoreira/transaction-register.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KMoreira/transaction-register/issues"
+  },
+  "homepage": "https://github.com/KMoreira/transaction-register#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "truffle-hdwallet-provider": "^1.0.10"
+  },
+  "devDependencies": {
+    "truffle": "^5.0.22"
+  }
+}
